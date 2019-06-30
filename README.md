@@ -17,7 +17,7 @@ Most of the necessary functionality can be accessed using the `run_scripts.m` fi
     CONTRAST NAME 1: 1 - 2
     CONTRAST NAME 2: 2 - 1
 
-Each line is a seperate contrast. Numbers correspond to the binlist provided for the given condition. Only simple addition and subtraction of bins is supported. Spaces must seperate each bin number and mathematical operator, as shown above. Contrast names cannot contain colons, as that is treated as a special character.
+    Each line is a seperate contrast. Numbers correspond to the binlist provided for the given condition. Only simple addition and subtraction of bins is supported. Spaces must seperate each bin number and mathematical operator, as shown above. Contrast names cannot contain colons, as that is treated as a special character.
 - data.conds.preproc_cfg: A character array of filepaths pointing to a plain text file containing preprocessing configuration parameters. If not provided (i.e., field is left blank, `[]`), then the default values will be used. See `EEG/s1_preprocessEEG.m` for details. Each line corresponds is treated as a preprocessing parameter to over-ride, and must be entered in using the following format:
 
     PARAMETER_NAME1 = value1
