@@ -18,4 +18,3 @@ end
 writetable(elT,fullfile(outDir,[EEG.subject '_events.csv'])) % all events
 
 end
-
