@@ -25,4 +25,4 @@ Most of the necessary functionality can be accessed using the `run_scripts.m` fi
     
         PARAMETER_NAME2 = value2
 
-**NOTE** that due to the subtle and somewhat subjective nature of EEG analysis, this function required user supervision for the accurate labelling and removal of artifactual ICA components extracted from the EEG timecourse. Automatic removal of these components, while usable, is simply not up to our standards and is not recommended for final analysis. As such, using these functions can be rather time-consuming. It may be best to process your data in smaller batches in order to make it more manageable.
+**NOTE** that due to the subtle and somewhat subjective nature of EEG analysis, this function requires user supervision for the accurate labelling and removal of artifactual ICA components extracted from the EEG timecourse. Automatic removal of these components, while usable, is simply not up to our standards and is not recommended for final analysis. As such, using these functions can be rather time-consuming. It may be best to process your data in smaller batches in order to make it more manageable.
